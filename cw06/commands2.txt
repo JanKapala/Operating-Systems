@@ -1,0 +1,8 @@
+TIME
+CALC SUB 100 2
+MIRROR SysOpy
+Błędna wiadomość
+CALC DIV 487 67
+TIME
+MIRROR Agnieszka
+END

@@ -1,0 +1,40 @@
+1. Making an array with provided length and block size for static and dynamic memory allocation:
+
+time ./a.out -c 100000 20 -m static
+real    0m0,060s
+user    0m0,056s
+sys     0m0,004s
+
+time ./a.out -c 100000 20 -m dynamic
+real    0m0,061s
+user    0m0,061s
+sys     0m0,000s
+
+2. Finding an element in array, which have sum of chars nearest to provided argument:
+time ./a.out -c 100000 20 -m static -s 2000
+(wyniki po odjęciu czasu tworzenia tablicy)
+real    0m0,006s
+user    0m0,006s
+sys     0m0,000s
+
+3. Removing some number of blocks and adding some number of blocks:
+
+time ./a.out -c 100000 20 -m dynamic -r 10000 -a 10000
+(wyniki po odjęciu czasu tworzenia tablicy)
+real    0m0,001s
+user    0m0,001s
+sys     0m0,000s
+
+4. Adding and removing -R times
+
+time ./a.out -c 100000 20 -m dynamic -R 10000
+(wyniki po odjęciu czasu tworzenia tablicy)
+real    0m0,002s
+user    0m0,002s
+sys     0m0,000s
+
+Summary:
+We can see that most time consuming operation is memory allocation both: staticaly and dynamicaly.
+
+Ten times less time takes finding and 60 times less time takes adding or removing.
+These results aren't suprising if we take under consideration time complexity analysis of used functions.

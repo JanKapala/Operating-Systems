@@ -1,0 +1,38 @@
+Shared linked libraries tests
+
+time ./../bin/mainShared.out -c 100000 20 -m static
+0.05user 0.00system 0:00.05elapsed
+
+time ./../bin/mainShared.out -c 100000 20 -m dynamic
+0.05user 0.00system 0:00.05elapsed
+
+time ./../bin/mainShared.out -c 100000 20 -m static -s 2000
+0.07user 0.00system 0:00.07elapsed
+
+time ./../bin/mainShared.out -c 100000 20 -m dynamic -r 10000 -a 10000
+0.07user 0.00system 0:00.07elapsed
+
+time ./../bin/mainShared.out -c 100000 20 -m dynamic -R 10000
+0.05user 0.00system 0:00.05elapsed
+
+
+
+Static linked libraries test
+
+time ./../bin/mainStatic.out -c 100000 20 -m static
+0.05user 0.00system 0:00.05elapsed
+
+time ./../bin/mainStatic.out -c 100000 20 -m dynamic
+0.06user 0.00system 0:00.06elapsed
+
+time ./../bin/mainStatic.out -c 100000 20 -m static -s 2000
+0.06user 0.00system 0:00.06elapsed
+
+time ./../bin/mainStatic.out -c 100000 20 -m dynamic -r 10000 -a 10000
+0.05user 0.00system 0:00.05elapsed
+
+time ./../bin/mainStatic.out -c 100000 20 -m dynamic -R 10000
+0.05user 0.00system 0:00.05elapsed
+
+Summary:
+We can see that executing time is a little bit longer for program linked with shared libraries than for program linked with static libraries

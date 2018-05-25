@@ -1,0 +1,71 @@
+Structure of tests results:
+Results
+    optimization flag1
+        shared libraries
+            static memory allocation
+            dynamic memory allocation
+        static libraries
+            static memory allocation
+            dynamic memory allocation
+    optimization flag2
+        ...
+    optimization flag3
+        ...
+
+All measurements was made with executing all 5 type of operations (creating, searching, removing, adding, removing&adding alternately)
+
+Results:
+    Optimization -O0
+        shared libraries
+            static memory allocation
+            time ./../bin/mainShared.out -m static -c 100000 20 -s 2000 -r 1000 -a 1000 -R 1000
+            0.06user 0.00system 0:00.06elapsed 98%CPU
+
+            dynamic memory allocation
+            time ./../bin/mainShared.out -m dynamic -c 100000 20 -s 2000 -r 1000 -a 1000 -R 1000
+            0.06user 0.00system 0:00.06elapsed
+
+        static libraries
+            static memory allocation
+            time ./../bin/mainStatic.out -m static -c 100000 20 -s 2000 -r 1000 -a 1000 -R 1000
+            0.05user 0.00system 0:00.06elapsed
+
+            dynamic memory allocation
+            time ./../bin/mainStatic.out -m dynamic -c 100000 20 -s 2000 -r 1000 -a 1000 -R 1000
+            0.06user 0.00system 0:00.06elapsed
+    Optimization -O2
+        shared libraries
+            static memory allocation
+            time ./../bin/mainShared.out -m static -c 100000 20 -s 2000 -r 1000 -a 1000 -R 1000
+            0.04user 0.00system 0:00.05elapsed 100%CPU
+
+            dynamic memory allocation
+            time ./../bin/mainShared.out -m dynamic -c 100000 20 -s 2000 -r 1000 -a 1000 -R 1000
+            0.05user 0.00system 0:00.06elapsed
+
+        static libraries
+            static memory allocation
+            time ./../bin/mainStatic.out -m static -c 100000 20 -s 2000 -r 1000 -a 1000 -R 1000
+            0.05user 0.00system 0:00.05elapsed
+
+            dynamic memory allocation
+            time ./../bin/mainStatic.out -m dynamic -c 100000 20 -s 2000 -r 1000 -a 1000 -R 1000
+            0.05user 0.00system 0:00.05elapsed
+    Optimization -Os
+        shared libraries
+            static memory allocation
+            time ./../bin/mainShared.out -m static -c 100000 20 -s 2000 -r 1000 -a 1000 -R 1000
+            0.08user 0.00system 0:00.08elapsed
+
+            dynamic memory allocation
+            time ./../bin/mainShared.out -m dynamic -c 100000 20 -s 2000 -r 1000 -a 1000 -R 1000
+            0.09user 0.00system 0:00.09elapsed
+
+        static libraries
+            static memory allocation
+            time ./../bin/mainStatic.out -m static -c 100000 20 -s 2000 -r 1000 -a 1000 -R 1000
+            0.07user 0.00system 0:00.07elapsed
+
+            dynamic memory allocation
+            time ./../bin/mainStatic.out -m dynamic -c 100000 20 -s 2000 -r 1000 -a 1000 -R 1000
+            0.06user 0.00system 0:00.06elapsed

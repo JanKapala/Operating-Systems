@@ -1,0 +1,5 @@
+ls -l
+ls -lah
+pwd
+../zad1/a.out .. > 100
+pwd

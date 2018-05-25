@@ -1,0 +1,304 @@
+SYS
+    GEN
+
+    recordsAmount = 1000000
+    recordSize = 4
+    real    0m6,337s
+    user    0m0,584s
+    sys     0m5,752s
+
+    recordsAmount = 500000
+    recordSize = 4
+    real    0m3,144s
+    user    0m0,348s
+    sys     0m2,796s
+
+    recordsAmount = 10000
+    recordSize = 512
+    real    0m6,474s
+    user    0m0,764s
+    sys     0m5,708s
+
+    recordsAmount = 5000
+    recordSize = 512
+    real    0m6,481s
+    user    0m0,728s
+    sys     0m5,753s
+
+    recordsAmount = 1000
+    recordSize = 4096
+    real    0m5,251s
+    user    0m0,480s
+    sys     0m4,770s
+
+    recordsAmount = 500
+    recordSize = 4096
+    real    0m2,708s
+    user    0m0,312s
+    sys     0m2,395s
+
+    recordsAmount = 200
+    recordSize = 8196
+    real    0m2,081s
+    user    0m0,248s
+    sys     0m1,832s
+
+    recordsAmount = 100
+    recordSize = 8196
+    real    0m1,074s
+    user    0m0,092s
+    sys     0m0,982s
+
+    SORT
+
+    recordsAmount = 1000000
+    recordSize = 4
+    real    0m6,337s
+    user    0m0,584s
+    sys     0m5,752s
+
+    recordsAmount = 500000
+    recordSize = 4
+    real    0m3,144s
+    user    0m0,348s
+    sys     0m2,796s
+
+    recordsAmount = 10000
+    recordSize = 512
+    real    0m6,474s
+    user    0m0,764s
+    sys     0m5,708s
+
+    recordsAmount = 5000
+    recordSize = 512
+    real    0m6,481s
+    user    0m0,728s
+    sys     0m5,753s
+
+    recordsAmount = 1000
+    recordSize = 4096
+    real    0m5,251s
+    user    0m0,480s
+    sys     0m4,770s
+
+    recordsAmount = 500
+    recordSize = 4096
+    real    0m2,708s
+    user    0m0,312s
+    sys     0m2,395s
+
+    recordsAmount = 200
+    recordSize = 8196
+    real    0m2,081s
+    user    0m0,248s
+    sys     0m1,832s
+
+    recordsAmount = 100
+    recordSize = 8196
+    real    0m1,074s
+    user    0m0,092s
+    sys     0m0,982s
+
+    COPY
+
+    recordsAmount = 1000000
+    recordSize = 4
+    real    0m6,337s
+    user    0m0,584s
+    sys     0m5,752s
+
+    recordsAmount = 500000
+    recordSize = 4
+    real    0m3,144s
+    user    0m0,348s
+    sys     0m2,796s
+
+    recordsAmount = 10000
+    recordSize = 512
+    real    0m6,474s
+    user    0m0,764s
+    sys     0m5,708s
+
+    recordsAmount = 5000
+    recordSize = 512
+    real    0m6,481s
+    user    0m0,728s
+    sys     0m5,753s
+
+    recordsAmount = 1000
+    recordSize = 4096
+    real    0m5,251s
+    user    0m0,480s
+    sys     0m4,770s
+
+    recordsAmount = 500
+    recordSize = 4096
+    real    0m2,708s
+    user    0m0,312s
+    sys     0m2,395s
+
+    recordsAmount = 200
+    recordSize = 8196
+    real    0m2,081s
+    user    0m0,248s
+    sys     0m1,832s
+
+    recordsAmount = 100
+    recordSize = 8196
+    real    0m1,074s
+    user    0m0,092s
+    sys     0m0,982s
+
+LIB
+    GEN
+
+    recordsAmount = 1000000
+    recordSize = 4
+    real    0m6,337s
+    user    0m0,584s
+    sys     0m5,752s
+
+    recordsAmount = 500000
+    recordSize = 4
+    real    0m3,144s
+    user    0m0,348s
+    sys     0m2,796s
+
+    recordsAmount = 10000
+    recordSize = 512
+    real    0m6,474s
+    user    0m0,764s
+    sys     0m5,708s
+
+    recordsAmount = 5000
+    recordSize = 512
+    real    0m6,481s
+    user    0m0,728s
+    sys     0m5,753s
+
+    recordsAmount = 1000
+    recordSize = 4096
+    real    0m5,251s
+    user    0m0,480s
+    sys     0m4,770s
+
+    recordsAmount = 500
+    recordSize = 4096
+    real    0m2,708s
+    user    0m0,312s
+    sys     0m2,395s
+
+    recordsAmount = 200
+    recordSize = 8196
+    real    0m2,081s
+    user    0m0,248s
+    sys     0m1,832s
+
+    recordsAmount = 100
+    recordSize = 8196
+    real    0m1,074s
+    user    0m0,092s
+    sys     0m0,982s
+
+    SORT
+
+    recordsAmount = 1000000
+    recordSize = 4
+    real    0m6,337s
+    user    0m0,584s
+    sys     0m5,752s
+
+    recordsAmount = 500000
+    recordSize = 4
+    real    0m3,144s
+    user    0m0,348s
+    sys     0m2,796s
+
+    recordsAmount = 10000
+    recordSize = 512
+    real    0m6,474s
+    user    0m0,764s
+    sys     0m5,708s
+
+    recordsAmount = 5000
+    recordSize = 512
+    real    0m6,481s
+    user    0m0,728s
+    sys     0m5,753s
+
+    recordsAmount = 1000
+    recordSize = 4096
+    real    0m5,251s
+    user    0m0,480s
+    sys     0m4,770s
+
+    recordsAmount = 500
+    recordSize = 4096
+    real    0m2,708s
+    user    0m0,312s
+    sys     0m2,395s
+
+    recordsAmount = 200
+    recordSize = 8196
+    real    0m2,081s
+    user    0m0,248s
+    sys     0m1,832s
+
+    recordsAmount = 100
+    recordSize = 8196
+    real    0m1,074s
+    user    0m0,092s
+    sys     0m0,982s
+
+    COPY
+
+    recordsAmount = 1000000
+    recordSize = 4
+    real    0m6,337s
+    user    0m0,584s
+    sys     0m5,752s
+
+    recordsAmount = 500000
+    recordSize = 4
+    real    0m3,144s
+    user    0m0,348s
+    sys     0m2,796s
+
+    recordsAmount = 10000
+    recordSize = 512
+    real    0m6,474s
+    user    0m0,764s
+    sys     0m5,708s
+
+    recordsAmount = 5000
+    recordSize = 512
+    real    0m6,481s
+    user    0m0,728s
+    sys     0m5,753s
+
+    recordsAmount = 1000
+    recordSize = 4096
+    real    0m5,251s
+    user    0m0,480s
+    sys     0m4,770s
+
+    recordsAmount = 500
+    recordSize = 4096
+    real    0m2,708s
+    user    0m0,312s
+    sys     0m2,395s
+
+    recordsAmount = 200
+    recordSize = 8196
+    real    0m2,081s
+    user    0m0,248s
+    sys     0m1,832s
+
+    recordsAmount = 100
+    recordSize = 8196
+    real    0m1,074s
+    user    0m0,092s
+    sys     0m0,982s
+
+TODO:
+-> Summary

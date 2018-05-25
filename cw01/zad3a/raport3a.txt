@@ -1,0 +1,1 @@
+../zad1/project/doc/raport3a.txt
