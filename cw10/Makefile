@@ -17,4 +17,4 @@ netclient:
 .PHONY: clean
 clean:
 	-rm -f client.out
-	-rm -f server.txt
+	-rm -f server.out
