@@ -16,5 +16,5 @@ netclient:
 
 .PHONY: clean
 clean:
-	-rm -f filter.out
-	-rm -f testResults.txt
+	-rm -f client.out
+	-rm -f server.txt
